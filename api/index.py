@@ -30,10 +30,10 @@ class TodoUpdate(BaseModel):
     completed: Union[bool, None] = None
 
 
-class TodoItem(BaseModel):
-    id: int
-    title: str
-    completed: bool
+# class TodoItem(BaseModel):
+#     id: int
+#     title: str
+#     completed: bool
 
 
 # Define the TodoItem model

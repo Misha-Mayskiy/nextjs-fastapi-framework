@@ -12,6 +12,6 @@ sniffio
 starlette
 typing_extensions
 uvicorn
-uvloop
+# uvloop - no support for Windows systems
 watchfiles
 websockets
